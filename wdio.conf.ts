@@ -92,7 +92,7 @@ export const config: Options.Testrunner = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        "browserName": "Chrome",
+          "browserName": "Chrome",
         "browserVersion": "112.0",
         "LT:Options": {
             "username": "fatima.noor",
@@ -106,7 +106,16 @@ export const config: Options.Testrunner = {
             "name": "test2",
             "selenium_version": "3.11.0"
         }
-    }],
+    },{
+        "browserName": "Safari",
+        "browserVersion": "14.0",
+        "LT:Options": {
+            "username": "fatima.noor",
+            "accessKey": "33wohWM6H8o9hRzULFQB8vcay3QE1p26B8MuPke41E3IeNRsfd",
+            "platformName": "MacOS Big sur",
+            "build": "build___001",
+            "project": "slider"
+    }}],
     //
     // ===================
     // Test Configurations
