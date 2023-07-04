@@ -1,0 +1,1 @@
+export const dragAndDrop=$(`//li[contains(@class,"pt-10")]/a[contains(@href,"https://www.lambdatest.com/selenium-playground/drag-drop-range-sliders-demo")]`)
